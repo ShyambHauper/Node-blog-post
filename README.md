@@ -30,6 +30,7 @@ cd Node-blog-post
 npm install
 Create a .env file in the root directory and add your MongoDB URI and JWT secret:
 
+PORT=3000
 MONGO_URI=mongodb://localhost:27017/yourdbname
 JWT_SECRET_KEY=your_jwt_secret
 
