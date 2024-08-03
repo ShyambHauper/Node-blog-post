@@ -9,16 +9,6 @@ const { encryptResponse } = require('./middelware/encryptionMiddleware');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Information route
-app.get('/', (req, res) => {
-    res.status(200).json({
-        message: "This is the 8DOTS interview task.",
-        liveURL: "https://node-blog-post-hm95.vercel.app/",
-        gitURL: "https://github.com/ShyambHauper/Node-blog-post.git",
-        postmanCollection: "Share postman collection in github",
-    });
-});
-
 // Middleware
 app.use(bodyParser.json());
 app.use(encryptResponse); // Encrypt outgoing response body
