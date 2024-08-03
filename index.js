@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
         message: "This is the 8DOTS interview task.",
         liveURL: "https://node-blog-post-hm95.vercel.app/",
         gitURL: "https://github.com/ShyambHauper/Node-blog-post.git",
-        postmanCollection: "https://api.postman.com/collections/27182980-5e0e139d-3b7c-4b1d-a1a2-30859a897069?access_key=PMAT-01J4CR1RM3DJXZATS5PDE2KQB2",
+        postmanCollection: "Share postman collection in github",
     });
 });
 
